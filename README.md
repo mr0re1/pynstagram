@@ -30,7 +30,7 @@ To use a line break in caption text you need to properly escape `\n` symbol. The
 * Use `$' . . . '` escaping.
 
 ```sh
-pynstagram -u username -p password -f ~/kittens/31415.jpg -t $'line\n$break'
+pynstagram -u username -p password -f ~/kittens/31415.jpg -t $'line\nbreak'
 ```
 
 * Use multiline argument.
