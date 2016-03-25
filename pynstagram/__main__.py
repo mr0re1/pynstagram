@@ -16,12 +16,14 @@ def main(args=None):
     (options, args) = parser.parse_args(args)
     if not options.username:
         parser.error('Username is required')
+    password = options.password
     if not options.password:
-        parser.error('Password is required')
+      import getpass
+      password = getpass.getpass()
     if not options.file:
         parser.error('File path is required')
 
-    with pynstagram.client(options.username, options.password) as client:
+    with pynstagram.client(options.username, password) as client:
         text = options.caption or ''
         client.upload(options.file, text)
 

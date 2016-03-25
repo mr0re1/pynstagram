@@ -5,7 +5,7 @@ Pynstagram is small python module and CLI tool that allows you to upload photo t
 ## CLI tool
 
 ```sh
-pynstagram -u username -p password -f ~/kittens/31415.jpg -t '#meow'
+pynstagram -u username -f ~/kittens/31415.jpg -t '#meow'
 ```
 
 ## Module
@@ -30,13 +30,13 @@ To use a line break in caption text you need to properly escape `\n` symbol. The
 * Use `$' . . . '` escaping.
 
 ```sh
-pynstagram -u username -p password -f ~/kittens/31415.jpg -t $'line\nbreak'
+pynstagram -u username -f ~/kittens/31415.jpg -t $'line\nbreak'
 ```
 
 * Use multiline argument.
 
 ```sh
-pynstagram -u username -p password -f ~/kittens/31415.jpg -t "line
+pynstagram -u username -f ~/kittens/31415.jpg -t "line
 > break"
 ```
 
