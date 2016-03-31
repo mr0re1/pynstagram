@@ -1,4 +1,4 @@
-from pynstragram.session import PynstagramSession
+from pynstagram.session import PynstagramSession
 
 
 class PynstagramClient(object):
