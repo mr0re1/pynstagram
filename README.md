@@ -3,7 +3,7 @@
 
 # Pynstagram
 
-Pynstagram is small python module and CLI tool that allows you to upload photo to [Instagram](www.instagram.com).
+Pynstagram is small python module and CLI tool that allows you to upload photo to [Instagram](http://www.instagram.com).
 
 ## CLI tool
 
