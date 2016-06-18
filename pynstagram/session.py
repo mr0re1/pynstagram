@@ -18,7 +18,7 @@ def generate_user_agent():
     res = random.choice(RESOLUTIONS)
     dpi = random.choice(DPIS)
 
-    inst_version = '.'.join([str(p) for p in ['4', randint(1, 2), randint(0, 2)]])
+    inst_version = '.'.join([str(p) for p in ['5', randint(1, 2), randint(0, 2)]])
     and_version = str(randint(10, 11)) + '/' + '.'.join([str(p) for p in [randint(1, 3), randint(3, 5), randint(0, 5)]])
 
     return 'Instagram %s Android (%s; %s; %s; samsung; %s; %s; smdkc210; en_US)' % \
