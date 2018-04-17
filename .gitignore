@@ -1,6 +1,0 @@
-dist
-*.egg-info
-
-.idea
-
-*.py[co]
